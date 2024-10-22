@@ -48,7 +48,7 @@ const JobList = ({ jobs, loading }) => {
 
     if (loading) {
         return (
-          <Box display="flex" justifyContent="center" marginTop="20px">
+          <Box display="flex" justifyContent="center" marginTop="18px">
             <CircularProgress />
           </Box>
         );

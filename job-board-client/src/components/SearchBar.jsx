@@ -11,7 +11,7 @@ const SearchBar = ({ onSearch, loading }) => {
   };
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '18px' }}>
       <TextField
         label="Search Jobs"
         variant="outlined"
