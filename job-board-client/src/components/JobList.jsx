@@ -57,7 +57,7 @@ const JobList = ({ jobs, loading }) => {
       if (jobs.length === 0) {
         return (
           <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column" marginTop="20px">
-            <WorkOutline style={{ fontSize: 60, color: 'gray' }} />
+            <WorkOutline style={{ fontSize: 70, color: 'gray' }} />
             <Typography variant="h6" color="textSecondary">
               No jobs available
             </Typography>
